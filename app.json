@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Carefit",
+    "slug": "Carefit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/carefit.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/carefit.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rupesh7070.Carefit"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/carefit.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5e88b90d-7e91-4ca3-bccd-cc3d7b791773"
+      }
+    }
+  }
+}
